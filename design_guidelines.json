@@ -1,0 +1,106 @@
+{
+  "theme": "LIGHT",
+  "archetype": "1 (Organic & Earthy) - customized to EPFF-INTEP brand",
+  "design_philosophy": "A warm, human-centered editorial blog with institutional trust. Generous spacing, real photography feel, asymmetrical grids to tell the story of volunteering. High contrast for readability with the institutional navy blue, green, and orange.",
+  "colors": {
+    "primary": "#1f3a4a",
+    "primary_foreground": "#ffffff",
+    "secondary": "#7ac143",
+    "secondary_foreground": "#ffffff",
+    "accent": "#f5a623",
+    "accent_foreground": "#ffffff",
+    "background": "#fafaf9",
+    "foreground": "#0f172a",
+    "muted": "#f5f5f4",
+    "muted_foreground": "#78716c",
+    "border": "#e7e5e4",
+    "destructive": "#ef4444"
+  },
+  "typography": {
+    "font_family": {
+      "heading": "Cormorant Garamond, serif",
+      "subheading": "Outfit, sans-serif",
+      "body": "DM Sans, sans-serif"
+    },
+    "scale": {
+      "h1": "text-5xl md:text-6xl tracking-tight leading-none font-medium text-primary",
+      "h2": "text-4xl md:text-5xl tracking-tight leading-tight font-medium text-primary",
+      "h3": "text-2xl md:text-3xl tracking-tight leading-snug font-medium text-primary",
+      "h4": "text-xl font-subheading font-semibold text-primary",
+      "body": "text-base md:text-lg leading-relaxed text-foreground/80",
+      "small": "text-sm uppercase tracking-[0.2em] font-subheading text-muted-foreground",
+      "quote": "text-2xl md:text-3xl italic font-heading text-primary border-l-4 border-secondary pl-6"
+    }
+  },
+  "spacing": {
+    "section_padding": "py-24 md:py-32",
+    "container_padding": "px-6 md:px-12",
+    "grid_gap": "gap-8 md:gap-12"
+  },
+  "layout": {
+    "container_max_width": "max-w-7xl mx-auto",
+    "grid_patterns": {
+      "blog_feed": "grid grid-cols-1 md:grid-cols-12 gap-8",
+      "turmas_list": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12"
+    }
+  },
+  "components": {
+    "header": {
+      "style": "sticky top-0 z-50 bg-background/90 backdrop-blur-xl border-b border-border/40 transition-all",
+      "logo": "h-12 w-auto object-contain"
+    },
+    "buttons": {
+      "primary": "bg-primary text-primary_foreground hover:bg-primary/90 px-8 py-4 rounded-full font-subheading transition-transform hover:-translate-y-1 shadow-md",
+      "secondary": "bg-secondary text-secondary_foreground hover:bg-secondary/90 px-8 py-4 rounded-full font-subheading transition-transform hover:-translate-y-1 shadow-md",
+      "outline": "border border-primary text-primary hover:bg-primary hover:text-primary_foreground px-8 py-4 rounded-full transition-colors font-subheading"
+    },
+    "cards": {
+      "blog": "group flex flex-col gap-4 rounded-xl border border-border bg-white overflow-hidden hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all p-6",
+      "turma": "relative overflow-hidden rounded-2xl group cursor-pointer bg-white border border-border"
+    }
+  },
+  "media": {
+    "logo": {
+      "url": "https://customer-assets.emergentagent.com/job_cursos-profissionais/artifacts/1gmhe96a_download.webp",
+      "alt": "EPFF-INTEP Logo"
+    },
+    "hero_image": {
+      "url": "https://images.unsplash.com/photo-1758599667729-a6f0f8bd213b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwzfHx2b2x1bnRlZXJpbmclMjBzdHVkZW50cyUyMGNvbW11bml0eXxlbnwwfHx8fDE3Nzc1NTIyMzV8MA&ixlib=rb-4.1.0&q=85",
+      "description": "Students doing park cleanup for solidarity"
+    },
+    "turmas_images": [
+      {
+        "url": "https://images.pexels.com/photos/7475425/pexels-photo-7475425.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Turma 1 - Environment/Ecology"
+      },
+      {
+        "url": "https://images.pexels.com/photos/7156162/pexels-photo-7156162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Turma 2 - Social Support / Food Drive"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1545886082-e66c6b9e011a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwzfHx0ZWFtd29yayUyMHN0dWRlbnRzJTIwY2hhcml0eXxlbnwwfHx8fDE3Nzc1NTIyMzV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Turma 3 - Community Outreach"
+      },
+      {
+        "url": "https://images.pexels.com/photos/7156178/pexels-photo-7156178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Turma 4 - Care & Solidarity"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1560220604-1985ebfe28b1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHwxfHx2b2x1bnRlZXJpbmclMjBzdHVkZW50cyUyMGNvbW11bml0eXxlbnwwfHx8fDE3Nzc1NTIyMzV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Turma 5 - Field Volunteers"
+      }
+    ],
+    "placeholder_images": [
+      "https://images.unsplash.com/photo-1713977331598-3e13b53f9850?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NzV8MHwxfHNlYXJjaHw0fHx2b2x1bnRlZXJpbmclMjBzdHVkZW50cyUyMGNvbW11bml0eXxlbnwwfHx8fDE3Nzc1NTIyMzV8MA&ixlib=rb-4.1.0&q=85",
+      "https://images.pexels.com/photos/7475423/pexels-photo-7475423.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+    ]
+  },
+  "instructions_to_main_agent": {
+    "general": "Build a multi-page institutional blog. Use pure Tailwind for complex asymmetrical layouts. Implement React Router for navigation. Ensure Portuguese (PT) localization for all static text. Add Google Fonts for Cormorant Garamond, Outfit, and DM Sans in index.html.",
+    "admin": "Create a protected admin dashboard route with simple auth (mocked if no backend provided). Use Shadcn UI Tables for managing Posts, Turmas, and Comments.",
+    "data_model": "Turmas: ID, Name, Year, Description, Members Count, Image, Slug. Posts: ID, Title, Content, Image, Date, Turma ID, Author, Slug. Comments: ID, Post ID, Author Name, Message, Date, Approved status.",
+    "testing": "All interactive elements MUST have data-testid attributes (e.g., data-testid='submit-comment-button', data-testid='nav-link-turmas').",
+    "styling": "Use the exact brand colors provided in the theme. Apply rounded-2xl to images and rounded-xl to cards. Add generous padding inside containers. Never center large blocks of text. When using grids for blog posts, implement bento-like asymmetrical spans (e.g. col-span-8 for featured post, col-span-4 for standard).",
+    "packages_to_install": ["react-router-dom", "lucide-react", "clsx", "tailwind-merge", "date-fns", "framer-motion"]
+  }
+}
