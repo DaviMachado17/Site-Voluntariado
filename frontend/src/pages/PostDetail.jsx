@@ -97,7 +97,12 @@ export default function PostDetail() {
       {post.image && (
         <div className="container-page mb-16">
           <div className="rounded-2xl overflow-hidden aspect-[16/9]">
-            <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+            <img
+              src={post.image}
+              alt={post.title}
+              style={{ objectPosition: post.image_position || "center" }}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       )}

@@ -135,6 +135,7 @@ class PostIn(BaseModel):
     excerpt: str
     content: str
     image: str = ""
+    image_position: str = "center"
     turma_slug: str
     author: str = "Redação EPFF-INTEP"
     featured: bool = False

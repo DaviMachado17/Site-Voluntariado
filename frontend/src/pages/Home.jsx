@@ -115,6 +115,7 @@ export default function Home() {
               <img
                 src={featured.image}
                 alt={featured.title}
+                style={{ objectPosition: featured.image_position || "center" }}
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
               />
             </div>
@@ -152,6 +153,7 @@ export default function Home() {
                 <img
                   src={p.image}
                   alt={p.title}
+                  style={{ objectPosition: p.image_position || "center" }}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
               </div>
