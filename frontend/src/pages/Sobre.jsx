@@ -45,7 +45,7 @@ export default function Sobre() {
           <Pillar
             icon={<Users className="text-brand-green" size={26} />}
             title="Turmas envolvidas"
-            body="As 5 turmas em destaque neste blog representam cursos distintos mas partilham o mesmo compromisso: pôr o conhecimento técnico ao serviço das pessoas."
+            body="As 4 turmas em destaque neste blog representam cursos distintos mas partilham o mesmo compromisso: pôr o conhecimento técnico ao serviço das pessoas."
           />
           <Pillar
             icon={<HeartHandshake className="text-brand-orange" size={26} />}

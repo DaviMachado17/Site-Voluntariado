@@ -179,7 +179,7 @@ export default function Home() {
           <div className="mb-12">
             <div className="eyebrow mb-3">As nossas turmas</div>
             <h2 className="font-heading text-4xl md:text-5xl font-medium text-primary max-w-2xl">
-              Cinco turmas, <span className="italic text-brand-green">uma</span> missão comum.
+              Quatro turmas, <span className="italic text-brand-green">uma</span> missão comum.
             </h2>
           </div>
 
