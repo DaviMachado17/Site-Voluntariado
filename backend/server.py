@@ -205,7 +205,7 @@ SEED_TURMAS = [
         "year": "2024/2025",
         "description": "Recolheram alimentos e confecionaram mantas para entregar à GADAFF e à APAFF, apoiando famílias e utentes destas instituições.",
         "members_count": 24,
-        "image": "https://images.pexels.com/photos/7156178/pexels-photo-7156178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "image": "https://customer-assets.emergentagent.com/job_cursos-profissionais/artifacts/t0uzinv8_WhatsApp%20Image%202026-04-30%20at%204.34.35%20PM.jpeg",
     },
 ]
 
@@ -241,7 +241,7 @@ SEED_POSTS = [
         "title": "Mantas e alimentos para a GADAFF e APAFF",
         "excerpt": "A turma do 12.º TT/CAB/TEAC recolheu alimentos e confecionou mantas, entregues à GADAFF e à APAFF para apoiar utentes e famílias.",
         "content": "A turma do 12.º ano TT/CAB/TEAC juntou duas ações numa só iniciativa solidária: a recolha de alimentos e a confeção de mantas.\n\nO trabalho dividiu-se entre tempo de aula e tempo livre dos alunos. As mantas foram produzidas com tecidos cedidos e trabalho de todos os colegas da turma, enquanto a recolha de alimentos envolveu a comunidade escolar.\n\nNo final, os bens foram entregues a duas instituições parceiras — a GADAFF e a APAFF — que canalizaram o apoio para utentes, crianças e famílias acompanhadas pelas suas equipas. Um gesto simples que, multiplicado por uma turma inteira, faz a diferença no dia-a-dia de quem recebe.",
-        "image": "https://images.pexels.com/photos/7156178/pexels-photo-7156178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "image": "https://customer-assets.emergentagent.com/job_cursos-profissionais/artifacts/jsm36cvs_WhatsApp%20Image%202026-04-30%20at%204.34.34%20PM.jpeg",
         "turma_slug": "12-tt-cab-teac",
         "author": "Turma 12.º TT/CAB/TEAC",
         "featured": False,
