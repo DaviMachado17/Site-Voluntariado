@@ -62,7 +62,12 @@ export default function TurmaDetail() {
         </div>
         <div className="md:col-span-5 order-1 md:order-2">
           <div className="aspect-[4/3] rounded-2xl overflow-hidden">
-            <img src={turma.image} alt={turma.name} className="w-full h-full object-cover" />
+            <img
+              src={turma.image}
+              alt={turma.name}
+              style={{ objectPosition: turma.image_position || "center" }}
+              className="w-full h-full object-cover"
+            />
           </div>
         </div>
       </section>

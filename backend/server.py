@@ -121,6 +121,7 @@ class TurmaIn(BaseModel):
     description: str
     members_count: int = 0
     image: str = ""
+    image_position: str = "center"
 
 
 class Turma(TurmaIn):
