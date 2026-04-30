@@ -189,7 +189,7 @@ SEED_TURMAS = [
         "year": "2024/2025",
         "description": "Confecionaram bonecos de pano para serem enviados a crianças do continente africano, em parceria com o projeto Reino Mágico — Mães do Mundo.",
         "members_count": 16,
-        "image": "https://images.pexels.com/photos/7156162/pexels-photo-7156162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "image": "https://customer-assets.emergentagent.com/job_cursos-profissionais/artifacts/s676uw1y_WhatsApp%20Image%202026-04-30%20at%204.28.35%20PM.jpeg",
     },
     {
         "name": "12.º TEAC / CAB",
@@ -223,7 +223,7 @@ SEED_POSTS = [
         "title": "Bonecos de pano para crianças do continente africano",
         "excerpt": "Os alunos do CEF 9.º — Cuidador de Crianças e Jovens confecionaram bonecos de pano para crianças de África, em parceria com o Reino Mágico — Mães do Mundo.",
         "content": "A turma do CEF 9.º ano — Cuidador de Crianças e Jovens desenvolveu um projeto de costura solidária: a confeção, à mão, de bonecos de pano destinados a crianças do continente africano.\n\nA iniciativa foi realizada em parceria com o projeto Reino Mágico — Mães do Mundo, que se encarregou de fazer chegar os bonecos aos seus destinatários. Cada boneco é único, pensado e costurado por cada aluno como um pequeno gesto de carinho que viaja continentes.\n\nO projeto integrou-se nas competências do curso, permitindo aos alunos colocar em prática conhecimentos de trabalhos manuais e, ao mesmo tempo, refletir sobre as diferentes realidades da infância no mundo.",
-        "image": "https://images.pexels.com/photos/7156162/pexels-photo-7156162.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "image": "https://customer-assets.emergentagent.com/job_cursos-profissionais/artifacts/v3r7m22v_WhatsApp%20Image%202026-04-30%20at%204.28.36%20PM.jpeg",
         "turma_slug": "cef-9-cuidador-de-criancas-e-jovens",
         "author": "Turma CEF 9.º",
         "featured": False,
