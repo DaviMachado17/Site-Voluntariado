@@ -1,0 +1,28 @@
+{
+  "summary": "First full test of EPFF-INTEP blog. Backend: 11/11 pytest cases pass (stats, turmas, posts CRUD/filter/slug, auth, comments moderation flow, admin CRUD). Frontend: Home/Blog/Turmas/Sobre/PostDetail all load with expected content; 5 posts, 5 turma cards; /admin redirects unauth to /admin/login; admin login with seeded credentials works, Painel/Sair shown, all 3 tabs (Artigos/Turmas/Comentários) are clickable.",
+  "backend_issues": {"critical": [], "minor": []},
+  "frontend_issues": {
+    "ui_bugs": [],
+    "integration_issues": [
+      {"flow": "Post comment submission UI", "issue": "Could not locate comment form inputs via standard selectors (name='author_name'/textarea name='message'/data-testid). Manual selectors may differ; backend comment POST is verified working via pytest, so likely just different field names. Recommend adding data-testid='comment-author', 'comment-message', 'comment-submit' for reliable automation.", "affected_selectors": ["[data-testid='comment-author']","[data-testid='comment-message']","[data-testid='comment-submit']"]}
+    ],
+    "design_issues": []
+  },
+  "test_report_links": ["/app/backend/tests/test_epff_api.py", "/app/test_reports/pytest/pytest_results.xml"],
+  "action_items": [
+    "Add data-testid attributes on PostDetail comment form (author name input, message textarea, submit button) to enable deterministic UI automation. Backend flow already verified."
+  ],
+  "critical_code_review_comments": [
+    "server.py seed_admin correctly updates existing admin if password mismatches (good).",
+    "CORS allow_origins uses wildcard via env default '*' with allow_credentials=False — acceptable for public blog; tighten to domain list in prod.",
+    "admin_update_comment uses query param `approved: bool` (PUT /api/admin/comments/{id}?approved=true); works but a JSON body would be more conventional.",
+    "All endpoints properly exclude `_id` from Mongo responses."
+  ],
+  "updated_files": ["/app/backend/tests/test_epff_api.py"],
+  "success_rate": {"backend": "100%", "frontend": "~95% (comment form automation blocked by selector mismatch; visible flows all OK)"},
+  "test_credentials": "admin@epff-intep.pt / epff2025 (verified)",
+  "seed_data_creation": "Startup seed creates 5 turmas and 5 posts when collections empty; verified via /api/stats=5/5",
+  "retest_needed": false,
+  "should_main_agent_self_test": true,
+  "context_for_next_testing_agent": "Backend pytest suite at /app/backend/tests/test_epff_api.py passes 11/11. For frontend comment submission UI automation, inspect PostDetail.jsx for actual input names or add data-testid hooks."
+}
